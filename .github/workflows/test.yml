@@ -27,13 +27,13 @@ jobs:
         run: npm test
 
             # Post-checkout and post-setup steps
-  post:
-      runs-on: ubuntu-latest
-      steps:
 
-        - name: Post Node.js setup
-          run: echo "This runs after Node.js setup"
+      - name: Post Node.js setup
+        run: echo "This runs after Node.js setup"
 
-        - name: Post checkout cleanup
-          run: echo "This runs after code checkout"
+      - name: Post checkout cleanup
+        run: echo "This runs after code checkout"
+
+
+
 
