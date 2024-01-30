@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "name": "promisesjs",
+  "version": "1.0.0",
+  "description": "DSA Practice",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "author": "Starnoh J",
+  "license": "ISC"
+}
