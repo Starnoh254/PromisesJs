@@ -29,7 +29,6 @@ jobs:
             # Post-checkout and post-setup steps
   post:
       runs-on: ubuntu-latest
-      needs: test
       steps:
 
         - name: Post Node.js setup
