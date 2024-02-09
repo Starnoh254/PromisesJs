@@ -26,3 +26,13 @@ function calculateSum (number){
 }
 
 console.log(calculateSum(3))
+
+
+let number = 1
+function show (){
+    console.log("Hi " , number)
+    number++
+    show ()
+}
+
+show()
